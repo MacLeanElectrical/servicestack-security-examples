@@ -21,13 +21,13 @@ When the project starts, you should be presented with a simple ServiceStack web 
 
 #### Creating an empty ASP.NET 2.0 Membership database
 To create an empty ASP.NET 2.0 Membership database, run the following command:
-    C:\Windows\Microsoft.NET\Framework\v2.0.50727\aspnet_regsql.exe
+    `C:\Windows\Microsoft.NET\Framework\v2.0.50727\aspnet_regsql.exe`
 
 When the wizard opens, select next then "Configure SQL Server for application services" then next again. Select the Server instance on which the database will run and give the Database name "Membership" then continue.
 
 #### Starting an instance of vault
 Having downloaded and extracted the Vault.exe, start an unitialised instance of Vault, run the following vault command:
-    vault.exe server -conf=vault.conf
+    `vault.exe server -conf=vault.conf`
         
 Where vault.conf contains the following configuration:
 ```hcl
