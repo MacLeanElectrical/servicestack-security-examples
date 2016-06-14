@@ -5,14 +5,14 @@ namespace IdentityServer3.Contrib.All.Demo
 {
     using System;
     using System.Configuration;
-    using Vault.CertificateStore;
-    using Vault.CertificateStore.Options;
     using Core.Configuration;
     using EntityFramework;
     using Membership;
     using Microsoft.Owin.Hosting;
     using Owin;
     using Serilog;
+    using Vault.CertificateStore;
+    using Vault.CertificateStore.Options;
     using Vault.ClientSecretStore;
     using Vault.ClientSecretStore.Interfaces;
     using Vault.ClientSecretStore.Options;
